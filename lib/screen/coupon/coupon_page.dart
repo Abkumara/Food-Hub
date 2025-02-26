@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:ksn_mobile_customer/core/constant/colors.dart'; 
-import 'package:ksn_mobile_customer/core/constant/text_style.dart'; 
-import 'package:ksn_mobile_customer/screens/coupon/widgets/coupon_card.dart';
+import 'package:foods_hub/core/constant/colors.dart';
+import 'package:foods_hub/core/constant/text_style.dart';
+import 'package:foods_hub/screen/coupon/widgets/coupon_card.dart';
 
 class CouponPage extends StatelessWidget {
   const CouponPage({super.key});
@@ -12,7 +12,7 @@ class CouponPage extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           "Apply Coupons",
-          style: size18_M_bold(textColor: blackType1), 
+          style: size18_M_bold(textColor: blackType1),
         ),
         backgroundColor: colorWhite,
         elevation: 0,
@@ -28,7 +28,7 @@ class CouponPage extends StatelessWidget {
           children: [
             Text(
               "Discount Coupons",
-              style: size22_M_bold(textColor: blackType1), 
+              style: size22_M_bold(textColor: blackType1),
             ),
             const SizedBox(height: 12),
             Expanded(
@@ -37,12 +37,12 @@ class CouponPage extends StatelessWidget {
                   CouponCard(
                     discountType: "30% OFF",
                     discountBgColor: primaryOrange,
-                    brandImage: "assets/images/brand.png", 
+                    brandImage: "assets/images/brand.png",
                     couponCode: "JUMBO",
                     discountText: "Save ₹149 on this order!",
                     description:
                         "Use code JUMBO & get 30% off on orders above ₹400. Maximum discount: ₹150.",
-                    cardBgColor: colorWhite, 
+                    cardBgColor: colorWhite,
                     onApply: () {
                       print("JUMBO Applied");
                     },
@@ -50,7 +50,7 @@ class CouponPage extends StatelessWidget {
                   CouponCard(
                     discountType: "FLAT OFF",
                     discountBgColor: titleColor,
-                    brandImage: null, 
+                    brandImage: null,
                     couponCode: "AXIS200",
                     discountText: "Save ₹825 on this order!",
                     description:
@@ -76,7 +76,7 @@ class CouponPage extends StatelessWidget {
                   CouponCard(
                     discountType: "FLAT OFF",
                     discountBgColor: addressColor,
-                    brandImage: null, 
+                    brandImage: null,
                     couponCode: "RBLCC100",
                     discountText: "Save ₹349 on this order!",
                     description:

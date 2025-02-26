@@ -1,17 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:foods_hub/controller/api_controller/location_controller.dart';
 import 'package:foods_hub/core/constant/colors.dart';
 import 'package:foods_hub/core/constant/text_style.dart';
+import 'package:foods_hub/model/location_model.dart';
 import 'package:foods_hub/screen/auth/fetch_location_screen.dart';
+import 'package:foods_hub/widgets/custom_button.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
-import 'package:ksn_mobile_customer/controller/api_controller/location_controller.dart';
-import 'package:ksn_mobile_customer/core/constant/colors.dart';
-import 'package:ksn_mobile_customer/core/constant/text_style.dart';
-import 'package:ksn_mobile_customer/model/location_model.dart';
-import 'package:ksn_mobile_customer/screens/auth/fetch_location_screen.dart';
-import 'package:ksn_mobile_customer/widgets/custom_button.dart';
-import 'package:ksn_mobile_customer/widgets/custom_text_field.dart';
+
+import '../../widgets/custom_text_field.dart';
 
 class AddressManuallyScreen extends StatefulWidget {
   const AddressManuallyScreen({super.key});
