@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:foods_hub/controller/api_controller/auth_controller.dart';
+import 'package:foods_hub/core/constant/colors.dart';
+import 'package:foods_hub/core/constant/text_style.dart';
+import 'package:foods_hub/core/utils/validation/validation.dart';
 import 'package:get/get.dart';
-import 'package:ksn_mobile_customer/controller/api_controller/auth_controller.dart';
-import 'package:ksn_mobile_customer/core/constant/colors.dart';
-import 'package:ksn_mobile_customer/core/constant/text_style.dart';
-import 'package:ksn_mobile_customer/core/utils/validation/validation.dart';
 
 class SignUpPage extends StatelessWidget {
   SignUpPage({super.key, required this.mobileNumber});

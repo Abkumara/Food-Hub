@@ -3,6 +3,7 @@ import 'package:foods_hub/core/constant/colors.dart';
 import 'package:foods_hub/core/constant/text_style.dart';
 import 'package:foods_hub/screen/auth/address_maually_screen.dart';
 import 'package:foods_hub/screen/auth/fetch_location_screen.dart';
+import 'package:foods_hub/widgets/custom_button.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:geolocator/geolocator.dart';
 

@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:foods_hub/controller/api_controller/auth_controller.dart';
 import 'package:foods_hub/core/constant/colors.dart';
 import 'package:foods_hub/core/constant/text_style.dart';
 import 'package:foods_hub/core/utils/validation/validation.dart';
 import 'package:foods_hub/screen/auth/widgets/otp_box.dart';
 import 'package:foods_hub/screen/auth/widgets/social_media_login.dart';
+import 'package:foods_hub/widgets/custom_button.dart';
 import 'package:get/get.dart';
 import 'package:video_player/video_player.dart';
 
