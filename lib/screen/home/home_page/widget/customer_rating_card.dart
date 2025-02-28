@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:ksn_mobile_customer/core/constant/colors.dart';
-import 'package:ksn_mobile_customer/core/constant/text_style.dart';
+import 'package:foods_hub/core/constant/colors.dart';
+import 'package:foods_hub/core/constant/text_style.dart';
 
 class CustomerReviewCard extends StatelessWidget {
   final String userName;
