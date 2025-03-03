@@ -1,11 +1,11 @@
 import 'package:dotted_line/dotted_line.dart';
 import 'package:flutter/material.dart';
+import 'package:foods_hub/core/constant/colors.dart';
+import 'package:foods_hub/core/constant/text_style.dart';
+import 'package:foods_hub/screen/home/payment_gateway/add_card.dart';
+import 'package:foods_hub/screen/home/payment_gateway/payment_options_screen.dart';
+import 'package:foods_hub/screen/home/payment_gateway/succsesfull_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:ksn_mobile_customer/core/constant/colors.dart';
-import 'package:ksn_mobile_customer/core/constant/text_style.dart';
-import 'package:ksn_mobile_customer/screens/home/payment_gateway/add_card.dart';
-import 'package:ksn_mobile_customer/screens/home/payment_gateway/payment_options_screen.dart';
-import 'package:ksn_mobile_customer/screens/home/payment_gateway/succsesfull_screen.dart';
 
 class PaymentGateWay extends StatefulWidget {
   const PaymentGateWay({super.key});

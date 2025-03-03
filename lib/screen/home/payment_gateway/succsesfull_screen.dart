@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ksn_mobile_customer/core/constant/colors.dart';
-import 'package:ksn_mobile_customer/screens/tab_controller.dart';
+import 'package:foods_hub/core/constant/colors.dart';
+import 'package:foods_hub/screen/tab_controller.dart';
 
 class SuccessfulScreen extends StatefulWidget {
   const SuccessfulScreen({super.key});

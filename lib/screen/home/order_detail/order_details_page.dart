@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:ksn_mobile_customer/core/constant/colors.dart';
-import 'package:ksn_mobile_customer/core/constant/text_style.dart';
-import 'package:ksn_mobile_customer/screens/home/order_detail/tab1_page.dart';
-import 'package:ksn_mobile_customer/screens/home/order_detail/tab2_page.dart';
-import 'package:ksn_mobile_customer/screens/my_account/my_address_screen.dart';
-import 'package:ksn_mobile_customer/screens/tab_controller.dart';
+import 'package:foods_hub/core/constant/colors.dart';
+import 'package:foods_hub/core/constant/text_style.dart';
+import 'package:foods_hub/screen/home/order_detail/tab1_page.dart';
+import 'package:foods_hub/screen/home/order_detail/tab2_page.dart';
+import 'package:foods_hub/screen/my_account/my_address_screen.dart';
+import 'package:foods_hub/screen/tab_controller.dart';
 
 class OrderDetailPage extends StatefulWidget {
   const OrderDetailPage({super.key});

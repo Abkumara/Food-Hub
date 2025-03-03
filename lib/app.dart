@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:foods_hub/controller/theme_controller/theme_controller.dart';
+import 'package:foods_hub/screen/other/splash_screen.dart';
 import 'package:get/get.dart';
-import 'package:ksn_mobile_customer/controller/theme_controller/theme_controller.dart';
-import 'package:ksn_mobile_customer/screens/other/splash_screen.dart';
 
 class KsnApp extends StatefulWidget {
   const KsnApp({super.key});

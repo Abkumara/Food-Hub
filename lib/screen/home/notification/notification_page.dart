@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
-import 'package:ksn_mobile_customer/core/constant/colors.dart';
-import 'package:ksn_mobile_customer/core/constant/text_style.dart';
-import 'package:ksn_mobile_customer/screens/home/notification/widget/notification_app_bar.dart';
+import 'package:foods_hub/core/constant/colors.dart';
+import 'package:foods_hub/core/constant/text_style.dart';
+import 'package:foods_hub/screen/home/notification/widget/notification_app_bar.dart';
 
 class NotificationPage extends StatefulWidget {
   const NotificationPage({super.key});
@@ -53,33 +53,33 @@ class _NotificationPageState extends State<NotificationPage> {
             child: Slidable(
               key: ValueKey(item),
               endActionPane: ActionPane(
-              motion: const BehindMotion(),
-              extentRatio: 0.20,
-              children: [
-                Expanded(
-                  child: Container(
-                    color: Colors.transparent, 
-                  ),
-                ),
-                ClipRRect(
-                  borderRadius: const BorderRadius.only(
-                    topRight: Radius.circular(10),
-                    bottomRight: Radius.circular(10),
-                    bottomLeft: Radius.circular(10),
-                    topLeft: Radius.circular(10),
-                  ), 
-                  child: Container(
-                    color: Colors.red,
-                    alignment: Alignment.center,
-                    child: IconButton(
-                      icon: const Icon(Icons.delete, color: Colors.white, size: 30),
-                      onPressed: () => _deleteNotification(index),
+                motion: const BehindMotion(),
+                extentRatio: 0.20,
+                children: [
+                  Expanded(
+                    child: Container(
+                      color: Colors.transparent,
                     ),
                   ),
-                ),
-              ],
-            ),
-
+                  ClipRRect(
+                    borderRadius: const BorderRadius.only(
+                      topRight: Radius.circular(10),
+                      bottomRight: Radius.circular(10),
+                      bottomLeft: Radius.circular(10),
+                      topLeft: Radius.circular(10),
+                    ),
+                    child: Container(
+                      color: Colors.red,
+                      alignment: Alignment.center,
+                      child: IconButton(
+                        icon: const Icon(Icons.delete,
+                            color: Colors.white, size: 30),
+                        onPressed: () => _deleteNotification(index),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
               child: Container(
                 height: 80,
                 decoration: BoxDecoration(

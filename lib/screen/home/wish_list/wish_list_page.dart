@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:foods_hub/controller/api_controller/wish_list_controller.dart';
+import 'package:foods_hub/core/constant/urls.dart';
+import 'package:foods_hub/screen/home/home_page/widget/bottom_sheet.dart';
+import 'package:foods_hub/screen/home/home_page/widget/items_layout.dart';
+import 'package:foods_hub/screen/tab_controller.dart';
 import 'package:get/get.dart';
-import 'package:ksn_mobile_customer/controller/api_controller/wish_list_controller.dart';
-import 'package:ksn_mobile_customer/core/constant/urls.dart';
-import 'package:ksn_mobile_customer/screens/home/home_page/widget/bottom_sheet.dart';
-import 'package:ksn_mobile_customer/screens/home/home_page/widget/items_layout.dart';
-import 'package:ksn_mobile_customer/screens/tab_controller.dart';
 
 class WishListPage extends StatefulWidget {
   final Color? color;

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:foods_hub/core/constant/colors.dart';
+import 'package:foods_hub/core/constant/text_style.dart';
+import 'package:foods_hub/screen/home/payment_gateway/succsesfull_screen.dart';
+import 'package:foods_hub/widgets/custom_button.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:ksn_mobile_customer/core/constant/colors.dart';
-import 'package:ksn_mobile_customer/core/constant/text_style.dart';
-import 'package:ksn_mobile_customer/screens/home/payment_gateway/succsesfull_screen.dart';
-import 'package:ksn_mobile_customer/widgets/custom_button.dart';
 
 class PaymentOptionsScreen extends StatefulWidget {
   const PaymentOptionsScreen({super.key});

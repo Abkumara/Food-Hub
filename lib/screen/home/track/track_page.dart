@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:ksn_mobile_customer/core/constant/colors.dart';
-import 'package:ksn_mobile_customer/core/constant/text_style.dart';
-import 'package:ksn_mobile_customer/screens/home/track/widgets/track_widgets.dart';
-import 'package:ksn_mobile_customer/screens/tab_controller.dart';
+import 'package:foods_hub/core/constant/colors.dart';
+import 'package:foods_hub/core/constant/text_style.dart';
+import 'package:foods_hub/screen/home/track/widgets/track_widgets.dart';
+import 'package:foods_hub/screen/tab_controller.dart';
 
 class TrackPage extends StatefulWidget {
   const TrackPage({super.key});
@@ -16,18 +16,17 @@ class _TrackPageState extends State<TrackPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: PreferredSize(
-      preferredSize: const Size.fromHeight(kToolbarHeight),
-      child: AppBar(
-        backgroundColor: const Color.fromARGB(255, 255, 255, 255), 
-        leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
-          onPressed: () {
-            Navigator.pop(context);
-          },
+        preferredSize: const Size.fromHeight(kToolbarHeight),
+        child: AppBar(
+          backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+          leading: IconButton(
+            icon: const Icon(Icons.arrow_back),
+            onPressed: () {
+              Navigator.pop(context);
+            },
+          ),
         ),
       ),
-    ),
-
       body: SafeArea(
         child: SingleChildScrollView(
           child: Padding(
@@ -59,7 +58,7 @@ class _TrackPageState extends State<TrackPage> {
                 ),
                 const SizedBox(height: 20),
                 Card(
-                  elevation: 1, 
+                  elevation: 1,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12),
                   ),

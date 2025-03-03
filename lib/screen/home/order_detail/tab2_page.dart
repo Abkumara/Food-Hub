@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:foods_hub/core/constant/colors.dart';
+import 'package:foods_hub/core/constant/text_style.dart';
+import 'package:foods_hub/screen/tab_controller.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:ksn_mobile_customer/core/constant/text_style.dart';
-import 'package:ksn_mobile_customer/core/constant/colors.dart';
-import 'package:ksn_mobile_customer/screens/tab_controller.dart';
-
 
 class Tab2 extends StatefulWidget {
   const Tab2({super.key});
