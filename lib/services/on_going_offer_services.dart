@@ -1,6 +1,6 @@
-import 'package:ksn_mobile_customer/model/on_going_offer_model.dart';
-import 'package:ksn_mobile_customer/network/api/api_client.dart';
-import 'package:ksn_mobile_customer/network/api/api_endpoints.dart';
+import 'package:foods_hub/model/on_going_offer_model.dart';
+import 'package:foods_hub/network/api/api_client.dart';
+import 'package:foods_hub/network/api/api_endpoints.dart';
 
 class OnGoingOfferService {
   final DioClientWithToken _apiClient = DioClientWithToken();

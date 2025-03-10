@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:foods_hub/screen/auth/login_page.dart';
+import 'package:foods_hub/screen/tab_controller.dart';
 import 'package:get/get.dart';
-import 'package:ksn_mobile_customer/screens/auth/login_page.dart';
-import 'package:ksn_mobile_customer/screens/tab_controller.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SplashScreen extends StatefulWidget {

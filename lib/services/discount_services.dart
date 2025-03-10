@@ -1,6 +1,6 @@
-import 'package:ksn_mobile_customer/model/discount_banner_model.dart';
-import 'package:ksn_mobile_customer/network/api/api_client.dart';
-import 'package:ksn_mobile_customer/network/api/api_endpoints.dart';
+import 'package:foods_hub/model/discount_banner_model.dart';
+import 'package:foods_hub/network/api/api_client.dart';
+import 'package:foods_hub/network/api/api_endpoints.dart';
 
 class DiscountService {
   final DioClientWithToken _apiClient = DioClientWithToken();

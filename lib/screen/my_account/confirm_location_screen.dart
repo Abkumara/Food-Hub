@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:ksn_mobile_customer/core/constant/colors.dart';
-import 'package:ksn_mobile_customer/core/constant/text_style.dart';
-import 'package:ksn_mobile_customer/screens/tab_controller.dart';
-import 'package:ksn_mobile_customer/widgets/custom_button.dart';
+import 'package:foods_hub/core/constant/colors.dart';
+import 'package:foods_hub/core/constant/text_style.dart';
+import 'package:foods_hub/screen/tab_controller.dart';
+import 'package:foods_hub/widgets/custom_button.dart';
 
 class ConfirmLocationScreen extends StatefulWidget {
   const ConfirmLocationScreen({super.key});

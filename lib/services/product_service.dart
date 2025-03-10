@@ -1,6 +1,6 @@
-import 'package:ksn_mobile_customer/model/product_model.dart';
-import 'package:ksn_mobile_customer/network/api/api_client.dart';
-import 'package:ksn_mobile_customer/network/api/api_endpoints.dart';
+import 'package:foods_hub/model/product_model.dart';
+import 'package:foods_hub/network/api/api_client.dart';
+import 'package:foods_hub/network/api/api_endpoints.dart';
 
 class ProductService {
   final DioClientWithToken _apiClient = DioClientWithToken();

@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:ksn_mobile_customer/core/constant/colors.dart';
-import 'package:ksn_mobile_customer/screens/my_account/my_account_screen.dart';
+import 'package:foods_hub/core/constant/colors.dart';
+import 'package:foods_hub/screen/my_account/my_account_screen.dart';
 
 class ThankYouScreen extends StatefulWidget {
   @override
@@ -18,7 +18,7 @@ class _ThankYouScreenState extends State<ThankYouScreen> {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (context) => MyAccountScreen(), 
+          builder: (context) => MyAccountScreen(),
         ),
       );
     });
@@ -27,14 +27,14 @@ class _ThankYouScreenState extends State<ThankYouScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: backgroundWhite, 
+      backgroundColor: backgroundWhite,
       appBar: AppBar(
         backgroundColor: colorWhite,
         elevation: 0,
         leading: IconButton(
           icon: Icon(Icons.close, color: Colors.black),
           onPressed: () {
-            Navigator.pop(context); 
+            Navigator.pop(context);
           },
         ),
       ),
@@ -43,7 +43,7 @@ class _ThankYouScreenState extends State<ThankYouScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'assets/icons/animation_emoji.gif', 
+              'assets/icons/animation_emoji.gif',
               height: 200,
               width: 200,
             ),
@@ -72,4 +72,3 @@ class _ThankYouScreenState extends State<ThankYouScreen> {
     );
   }
 }
-

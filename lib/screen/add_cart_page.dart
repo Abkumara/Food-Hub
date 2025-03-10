@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:foods_hub/controller/api_controller/cart_controller.dart';
+import 'package:foods_hub/controller/api_controller/product_controller.dart';
 import 'package:get/get.dart';
-import 'package:ksn_mobile_customer/controller/api_controller/cart_controller.dart';
-import 'package:ksn_mobile_customer/controller/api_controller/product_controller.dart';
 
 class AddCartPage extends StatelessWidget {
   final CartController _cartController = Get.put(CartController());

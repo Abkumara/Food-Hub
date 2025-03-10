@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:ksn_mobile_customer/core/constant/colors.dart';
-import 'package:ksn_mobile_customer/screens/home/cart_page/cart_page.dart';
-import 'package:ksn_mobile_customer/screens/home/home_page/home_page.dart';
-import 'package:ksn_mobile_customer/core/widgets/bottom_nav_bar.dart';
-import 'package:ksn_mobile_customer/screens/home/notification/notification_page.dart';
-import 'package:ksn_mobile_customer/screens/home/order_detail/order_details_page.dart';
-import 'package:ksn_mobile_customer/screens/home/wish_list/wish_list_page.dart';
+import 'package:foods_hub/core/constant/colors.dart';
+import 'package:foods_hub/core/widgets/bottom_nav_bar.dart';
+import 'package:foods_hub/screen/home/cart_page/cart_page.dart';
+import 'package:foods_hub/screen/home/home_page/home_page.dart';
+import 'package:foods_hub/screen/home/notification/notification_page.dart';
+import 'package:foods_hub/screen/home/order_detail/order_details_page.dart';
+import 'package:foods_hub/screen/home/wish_list/wish_list_page.dart';
 
 class TabScreen extends StatefulWidget {
   final int? index;
@@ -36,9 +36,8 @@ class _TabScreenState extends State<TabScreen> {
     const HomePage(),
     const NotificationPage(),
     const CartPage(),
-    const  WishListPage(),
-    const  OrderDetailPage(),
-
+    const WishListPage(),
+    const OrderDetailPage(),
   ];
 
   @override

@@ -1,8 +1,8 @@
+import 'package:foods_hub/model/review_rate_model.dart';
+import 'package:foods_hub/network/api/api_client.dart';
+import 'package:foods_hub/network/api/api_endpoints.dart';
+import 'package:foods_hub/screen/ratings/thank_you_screen.dart';
 import 'package:get/get.dart';
-import 'package:ksn_mobile_customer/model/review_rate_model.dart';
-import 'package:ksn_mobile_customer/network/api/api_client.dart';
-import 'package:ksn_mobile_customer/network/api/api_endpoints.dart';
-import 'package:ksn_mobile_customer/screens/ratings/thank_you_screen.dart';
 
 class ReviewRatingService {
   final DioClientWithToken _apiClient = DioClientWithToken();

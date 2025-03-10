@@ -1,8 +1,8 @@
+import 'package:foods_hub/model/location_model.dart';
+import 'package:foods_hub/network/api/api_client.dart';
+import 'package:foods_hub/network/api/api_endpoints.dart';
+import 'package:foods_hub/screen/auth/fetch_location_screen.dart';
 import 'package:get/get.dart';
-import 'package:ksn_mobile_customer/model/location_model.dart';
-import 'package:ksn_mobile_customer/network/api/api_client.dart';
-import 'package:ksn_mobile_customer/network/api/api_endpoints.dart';
-import 'package:ksn_mobile_customer/screens/auth/fetch_location_screen.dart';
 
 class LocationService {
   final DioClientWithToken _apiClient = DioClientWithToken();

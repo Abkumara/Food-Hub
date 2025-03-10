@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:ksn_mobile_customer/controller/api_controller/review_rating_controller.dart';
-import 'package:ksn_mobile_customer/core/constant/colors.dart';
-
-import 'package:ksn_mobile_customer/core/constant/text_style.dart';
-import 'package:ksn_mobile_customer/model/review_rate_model.dart';
-import 'package:ksn_mobile_customer/widgets/custom_app_bar_widget.dart';
+import 'package:foods_hub/controller/api_controller/review_rating_controller.dart';
+import 'package:foods_hub/core/constant/colors.dart';
+import 'package:foods_hub/core/constant/text_style.dart';
+import 'package:foods_hub/model/review_rate_model.dart';
+import 'package:foods_hub/widgets/custom_app_bar_widget.dart';
 
 class RateOrderScreen extends StatefulWidget {
   const RateOrderScreen({super.key, required this.orderId});

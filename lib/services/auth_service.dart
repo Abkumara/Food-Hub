@@ -1,7 +1,7 @@
-import 'package:ksn_mobile_customer/model/otp_response_model.dart';
-import 'package:ksn_mobile_customer/model/signup_update_model.dart';
-import 'package:ksn_mobile_customer/network/api/api_client.dart';
-import 'package:ksn_mobile_customer/network/api/api_endpoints.dart';
+import 'package:foods_hub/model/otp_response_model.dart';
+import 'package:foods_hub/model/signup_update_model.dart';
+import 'package:foods_hub/network/api/api_client.dart';
+import 'package:foods_hub/network/api/api_endpoints.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class AuthService {

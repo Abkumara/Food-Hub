@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:foods_hub/core/constant/colors.dart';
+import 'package:foods_hub/core/constant/text_style.dart';
+import 'package:foods_hub/core/widgets/custome_search_bar.dart';
+import 'package:foods_hub/screen/my_account/confirm_location_screen.dart';
+import 'package:foods_hub/screen/my_account/search_screen.dart';
+import 'package:foods_hub/widgets/custom_app_bar_widget.dart';
+import 'package:foods_hub/widgets/custom_button.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:ksn_mobile_customer/core/constant/colors.dart';
-import 'package:ksn_mobile_customer/core/constant/text_style.dart';
-import 'package:ksn_mobile_customer/core/widgets/custome_search_bar.dart';
-import 'package:ksn_mobile_customer/screens/my_account/confirm_location_screen.dart';
-import 'package:ksn_mobile_customer/screens/my_account/search_screen.dart';
-import 'package:ksn_mobile_customer/widgets/custom_app_bar_widget.dart';
-import 'package:ksn_mobile_customer/widgets/custom_button.dart';
 
 class SelectDeliveryLocationScreen extends StatefulWidget {
   const SelectDeliveryLocationScreen({super.key});
@@ -27,13 +27,11 @@ class _SelectDeliveryLocationScreenState
     _searchFocusNode.addListener(() {
       if (_searchFocusNode.hasFocus) {
         setState(() {
-          _keyboardHeight = MediaQuery.of(context)
-              .viewInsets
-              .bottom; 
+          _keyboardHeight = MediaQuery.of(context).viewInsets.bottom;
         });
       } else {
         setState(() {
-          _keyboardHeight = 0; 
+          _keyboardHeight = 0;
         });
       }
     });

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:foods_hub/controller/api_controller/auth_controller.dart';
+import 'package:foods_hub/controller/api_controller/user_profile_controller.dart';
+import 'package:foods_hub/core/constant/colors.dart';
+import 'package:foods_hub/core/widgets/loading_widgets.dart';
+import 'package:foods_hub/screen/my_account/widgets/edit_profile_screen_widgets.dart';
+import 'package:foods_hub/widgets/custom_app_bar_widget.dart';
 import 'package:get/get.dart';
-import 'package:ksn_mobile_customer/controller/api_controller/auth_controller.dart';
-import 'package:ksn_mobile_customer/controller/api_controller/user_profile_controller.dart';
-import 'package:ksn_mobile_customer/core/constant/colors.dart';
-import 'package:ksn_mobile_customer/core/widgets/loading_widgets.dart';
-import 'package:ksn_mobile_customer/screens/my_account/widgets/edit_profile_screen_widgets.dart';
-import 'package:ksn_mobile_customer/widgets/custom_app_bar_widget.dart';
 
 class EditProfileScreen extends StatefulWidget {
   const EditProfileScreen({super.key});
